@@ -4,23 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Životopis</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;1,100;1,300;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
    
     <!---hlavička-->
+<header>
     <H1>Životopis</H1>
+</header>
+        
+<section class="fotka">
+    <img src="fotky/uvodni_fotka.jpg" alt="fotka Dominika" class="uvodnifoto">
+</section> 
 
-        <img src="fotky/uvodni_fotka.jpg" alt="fotka Dominika">
+<section class="menu">
+    <ul>
+        <li>
+            <a href="#kdojsem">Kdo jsem</a>
+        </li>
+        <li>
+            <a href="#prace">Pracovní zkušenosti</a>
+        </li>
+        <li>
+            <a href="#vzdelani">Vzdělání</a>
+        </li>
+        <li class="odsazeni">
+            <a href="#ostatni">Dodatečné informace</a>
+        </li>
+        <li class="odsazeni2">
+            <a href="#paticka">Napište mi</a>
+        </li>
+    </ul>
+</section>
 
+    
     <!---text o mně-->
+<section class="kdojsem" id="kdojsem">
         <H2>Kdo jsem</H2>
             <p>Vystudovala jsem ekonomickou školu, už od střední školy jsem měla ráda čísla, protože dávala do života aspekt určité logiky a řádu. Po několika brigádách jsem začala s účetnictvím, přes což jsem se dostala k auditu a konsolidacím. Po těchto zkušenostech mám pocit, že bych ráda udělala krok zpět a konkrétně se vrátila zpět k analýzám a datům, což jsem dělala částečně během auditu a chtěla bych tyto znalosti prohloubit. Současně mi také přišlo zajímavé přidat ke svým znalostem kódování a programování, protože mě to vždy fascinovalo a ve spojení s daty mi to dává smysl. V neposlední řadě je html a programovací jazyky opět oblast, která má určitý řád a logiku což mám ráda. V CSS a UX, jejichž schopnosti si také snažím prohloubit, se zase můžu projevit po své kreativní stránce a myslím, že to je právě to, co mi při práci pouze s čísly chybělo. Spojení kreativity a logiky je tedy něco, v čem si myslím, že se postupně nacházím.</p>
             <p>Ve své práci mám ráda svobodu a otevřenost, která funguje na základě důvěry. Rozumím, že když důvěru poruším nebo neplním deadliny, potom svoboda nemůže fungovat, ale mikromanagement a automatická nedůvěra je pro mě velmi demotivující. Nemám ráda slepé následování autorit pouze na základě jejich pozice nebo vynucování autority silou a zastrašováním. Naopak osoby, které si své postavení zaslouží znalostmi, chováním a přístupem k ostatním lidem respektuji ráda a myslím že vcelku přirozeně. Od takových osob se velmi ráda učím a také jsem loajální.</p>
             <p>Co se týče osobního života, tak ráda cestuji, poznávám nová místa a kultury. Semestr v Kanadě mě naučil nejen něco ve škole, ale hlavně komunikace s lidmi ze všech částí světa mi pomohl otevřít více svoji mysl a vidět svět ještě méně černobíle. Ráda sportuji, nejraději mám lyžování, cvičení s vlastní vahou, tenis, volejbal nebo chození na túry. S tím posledním mi pomáhá můj pes Oliver, který sice není žádný sportovec, ale chození a plavání má taky rád:).</p>
 
-    <!---text k pracovním zkušenostem-->
+</section>
+
+<!---text k pracovním zkušenostem-->
+<section class="prace" id="prace">
         <H2>Pracovní zkušenosti</H2>
 
             <H3>IFRS and consolidation specialist</H3>
@@ -75,8 +107,12 @@
                         <li>správně jednat s lidmi, dokázat najít argumenty své myšlenky a znalosti</li>
                     </ul>
 
+</section>
+    
 
-    <!---text ke vzdělání-->
+<!---text ke vzdělání-->
+
+<section class="vzdelani" id="vzdelani">
         <H2>Vzdělání</H2>
             <H3>Czechitas</H3>
                 <H4>Staň se kodérkou</H4>
@@ -98,10 +134,12 @@
                 <H4>Bakalářský titul v podnikové ekonomice a managemtu</H4>
                     <p>2012 - 2015<br>
                     Bakalářská práce na téma Fiskální politika USA</p>
-
+</section>
                 
 
-    <!---ostatní věci a schopnosti-->
+<!---ostatní věci a schopnosti-->
+
+<section class="ostatni" id="ostatni">
         <H2>Schopnosti a dodatečné informace</H2>
             
             <H3>Cizí jazyky</H3>
@@ -129,13 +167,15 @@
                     <p>začátečník</p>
             <H3>Ostatní dovednosti</H3>
                     <p>řidičský průkaz sk. B</p>
-            
-        <!---kontakt a patička-->
+</section>    
+        
+<!---kontakt a patička-->
+<footer class="paticka" id="paticka">
                     <p>602 749 748<br>
-                    dominika.petrova21@gmail.com<br>
-                    LinkedIn</p>
+                    <a href="mailto:dominika.petrova21@gmail.com">dominika.petrova21@gmail.com</a><br>
+                    <a href="https://www.linkedin.com/in/dominika-petrova/" target="blank">LinkedIn</a></p>
                     <p>2022 Dominika Petrová</p>
-
+</footer>
 
 
 </body>

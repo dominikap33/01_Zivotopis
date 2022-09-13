@@ -1,0 +1,76 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.uvodnifoto{
+    height: 220px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -70px;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(0, 153, 153);
+    background-size: cover;
+    padding: 60px 15%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom:35px;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.menu li{
+    display:inline-block;
+}
+
+.menu{
+    margin: -167px 0 0 0;
+    padding: 0;
+    background-color: rgb(0, 102, 102);
+    background-size: cover;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    color: white;
+}
+
+.odsazeni{
+    padding-left: 190px;
+}
+
+.odsazeni2{
+    padding-left: 20px;
+}
+
+.kdojsem h2{
+    margin-top: 90px;
+}
+
+.menu, .kdojsem, .prace, .vzdelani, .ostatni{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+
+
+
+/*font-family: 'Montserrat', sans-serif;*/
