@@ -3,6 +3,7 @@ body{
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background-color: #E1EDF4;
 }
 
 .uvodnifoto{
@@ -11,7 +12,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: -70px;
+    margin-top: -60px;
     padding: 0;
 }
 
@@ -26,8 +27,41 @@ h1{
     text-align: center;
     margin-bottom:35px;
     margin-top: 0px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 600;
+}
+
+.kontakt ul{
+    display: inline-flex;
+    column-gap: 90px;
+    padding-left: 17%;
+}
+
+.kontakt img{
+    height: 20px;
+}
+
+.kontakt a, .kontakt li{
+    display: inline-flex;
+}
+
+.kdojsem h2{
+    margin-top: 50px;
+}
+
+h2, h3{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+h2, footer{
+    margin-top: 25px;
+}
+
+
+ul{
+    margin-top: 12px;
+    padding-left: 0;
 }
 
 .menu li{
@@ -35,42 +69,76 @@ h1{
 }
 
 .menu{
-    margin: -167px 0 0 0;
+    margin: -172px 0 0 0;
     padding: 0;
     background-color: rgb(0, 102, 102);
     background-size: cover;
-    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .menu a{
     text-decoration: none;
     display: inline-block;
-    padding: 20px 15px;
+    padding: 20px 50px;
     color: white;
 }
 
-.odsazeni{
-    padding-left: 190px;
+.odsazeni0{
+    margin-left: 0;
+    padding-left: 0;
 }
 
-.odsazeni2{
-    padding-left: 20px;
+.odsazeni1{
+    padding-left: 80px;
 }
 
-.kdojsem h2{
-    margin-top: 90px;
-}
 
-.menu, .kdojsem, .prace, .vzdelani, .ostatni{
+.kdojsem, .prace, .vzdelani, .ostatni{
+    overflow: auto;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom:25px;
 }
 
-h2{
-    margin-top: 50px;
+footer{
+    background-color: rgb(0, 102, 102);
+    background-size: cover;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.prace, .ostatni{
+    background-color: #C4DCE9;
+}
+
+
+.bold{
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+
+p{
+    margin: 6px;
+}
+
+.menu a:hover{
+    color:rgb(0, 153, 153);
+}
+
+.menu a:focus{
+    background-color:rgb(0, 153, 153);
 }
 
 
 
 
-/*font-family: 'Montserrat', sans-serif;*/
+
+/*font-family: 'Montserrat', sans-serif;
+#E1EDF4
+#D8F8E8
+*/
