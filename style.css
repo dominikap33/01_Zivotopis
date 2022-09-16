@@ -7,46 +7,51 @@ body{
 }
 
 .uvodnifoto{
-    height: 220px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: -60px;
-    padding: 0;
+    height: 300px;
+    border-radius: 60px 60px 60px 5px;
+    float: right;
+    padding: 0 0 10px 20px;
 }
 
 header{
-    background-color: rgb(0, 153, 153);
     background-size: cover;
-    padding: 60px 15%;
+    background-color: rgb(0, 153, 153);
+    padding: 10px 15%;
+}
+
+.hlavicka p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 h1{
     color: white;
     text-align: center;
-    margin-bottom:35px;
-    margin-top: 0px;
     font-size: 60px;
     font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
-.kontakt ul{
-    display: inline-flex;
-    column-gap: 90px;
-    padding-left: 17%;
+.kontakt{
+    text-align: center;
+    padding: 0 17%;
+    margin: 0px;
 }
 
 .kontakt img{
-    height: 20px;
+    height: 30px;
 }
 
 .kontakt a, .kontakt li{
-    display: inline-flex;
+    display: inline-block;
+    padding: 15px 30px 10px 30px;
 }
 
 .kdojsem h2{
-    margin-top: 50px;
+    text-align: center;
 }
 
 h2, h3{
@@ -55,12 +60,13 @@ h2, h3{
 }
 
 h2, footer{
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 
 ul{
-    margin-top: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
 }
 
@@ -69,12 +75,12 @@ ul{
 }
 
 .menu{
-    margin: -172px 0 0 0;
-    padding: 0;
+    margin: 0;
     background-color: rgb(0, 102, 102);
     background-size: cover;
     padding-left: 15%;
     padding-right: 15%;
+    text-align: center;
 }
 
 .menu a{
@@ -82,15 +88,6 @@ ul{
     display: inline-block;
     padding: 20px 50px;
     color: white;
-}
-
-.odsazeni0{
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.odsazeni1{
-    padding-left: 80px;
 }
 
 
@@ -106,9 +103,9 @@ footer{
     background-size: cover;
     color: white;
     padding-top: 30px;
-    text-align: center;
     padding-bottom: 30px;
     margin: 0;
+    text-align: center;
 }
 
 .prace, .ostatni{
@@ -141,4 +138,5 @@ p{
 /*font-family: 'Montserrat', sans-serif;
 #E1EDF4
 #D8F8E8
+rgb(0, 153, 153)
 */
